@@ -1,6 +1,6 @@
 'use strict';
 let path = require('path');
-let defaultSettings = require('./defaults');
+let defaultSettings = require('./defaults.js');
 
 // Additional npm or bower modules to include in builds
 // Add all foreign plugins you may need into this array
@@ -28,7 +28,7 @@ module.exports = {
     noInfo: false
   },
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ['', '.js', '.jsx','json'],
     alias: {
       actions: `${defaultSettings.srcPath}/actions/`,
       components: `${defaultSettings.srcPath}/components/`,
