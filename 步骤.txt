@@ -1,0 +1,3 @@
+前提安装yoeman
+1、npm install -g generator-react-webpack安装gennerator-react-webpack
+2、yo react-webpack gallery-by-react
